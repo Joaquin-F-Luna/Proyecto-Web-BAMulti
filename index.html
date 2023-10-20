@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Inicio Peregrinos Zona Sur</title>
 </head>
 <body>
@@ -14,38 +15,30 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#fechas">Fechas y Viajes</a></li>
                 <li><a href="#redes">Contactanos</a></li>
-                
+             
             </ul>
         </nav>
     </header>
 
     <main>
        <section id="inicio">
-        <h1>¡Bienvenido peregrino!</h1>
-        
-        <br>
-        <fieldset>
-            <legend></legend>
-        <p style="color: rgb(0, 0, 0);  margin-top: 15px; margin-left : 100px; margin-right : 100px">
-            Peregrinos zona sur es una organización sin fines de lucro 
-            que invita a las personas a conocer las apariciones de la Inmaculada Madre del Divino Corazón Eucarístico
-            de Jesús en la provincia de Salta, Argentina.
-        </p>
+        <h1 class="text-center m-auto">¡Bienvenido peregrino!</h1>
+        <fieldset class="container rounded-3 border p-4">
+            <p>Peregrinos zona sur es una organización sin fines de lucro que invita a las personas a conocer las apariciones de la Inmaculada Madre del Divino Corazón Eucarístico de Jesús en la provincia de Salta, Argentina.</p>
         </fieldset>
-
-    </section>
-    <img src="./img/Logo peregrinos fondo final.png" alt="Logo" style="max-width: 20%; height: auto;">
-        <section id="fechas">
+         </section>
+            <img src="./img/Logo peregrinos fondo final.png" alt="Logo" style="max-width: 20%; height: 20%;" class="mx-auto">
+         <section id="fechas">
          <br>
-         <fieldset>
-             <legend>Fechas y viajes</legend>
+         <fieldset class="container rounded-3 border p-4">
+             <legend class="col-form-label">Fechas y viajes</legend>
              <ul>
                 <li>20 de Abril "San Benito Abad"</li>
                 <li>18 de Mayo "San José Obrero"</li>
                 <li>29 de Junio "San Juan Bautista"</li>
                 <li>3 de Agosto "San Maximiliano Kolbe"</li>
                 <li>5 de Octubre "Santa Teresita del Niño Jesus"</li>
-                <li>29 de Junio "Fiesta en honor y agradecimiento a la Santísima Virgen"</li>
+                <li>9 de Diciembre "Fiesta en honor y agradecimiento a la Santísima Virgen"</li>
                 
             </ul>
          </fieldset>
@@ -60,68 +53,73 @@
                   <img src="./img/instagram logo.png" alt="" class="img">
                   
                   <a target="_blank" href="https://www.instagram.com/peregrinoszonasur/" class="btn">@peregrinoszonasur</a>
-              </div>
-                  <div class="cajaRedes imagenRedes">
-                  <h3>Agreganos en WhatsApp</h3>
-                  <img src="./img/logoWhatsapp.png" alt="" class="img">
-                  
-                  <a target="_blank" href="https://api.whatsapp.com/send?phone=5491140299197&text=Hola%2C+me+gustar%C3%ADa+recibir+informaci%C3%B3n%21" class="btn">Tel.: 11-4029-9197</a>
-              </div>
-
-              <div class="cajaRedes imagenRedes">
-                    <h3>Seguinos en Facebook</h3>
-                    <img src="./img/logoFacebook.png" alt="" class="img">
-                     <a target="_blank" href="https://www.facebook.com/PeregrinosZonaSur" class="btn">Peregrinos Zona Sur</a>
+                </div>
+                    <div class="cajaRedes imagenRedes">
+                    <h3>Agreganos en WhatsApp</h3>
+                    <img src="./img/logoWhatsapp.png" alt="" class="img">
+                    
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5491140299197&text=Hola%2C+me+gustar%C3%ADa+recibir+informaci%C3%B3n%21" class="btn">Tel.: 11-4029-9197</a>
+                </div>
   
+                <div class="cajaRedes imagenRedes">
+                      <h3>Seguinos en Facebook</h3>
+                      <img src="./img/logoFacebook.png" alt="" class="img">
+                       <a target="_blank" href="https://www.facebook.com/PeregrinosZonaSur" class="btn">Peregrinos Zona Sur</a>
+    
+                </div>
+               
               </div>
-             
-            </div>
-            <br>
-          </section>
-
-    </main>
-    <footer class="contacto" id="contacto">
-        <h2>Más info</h2>
-        <section id="contacto">
-            <form action="" method="">
-                <h4>Si quieres más información, puedes ecompletar tus datos y te contactaremos por mail</h4>
-                <fieldset>
-                  <legend>Datos personales</legend>
-                  <label for="nombre">Nombre</label>
-                  <input
-                    type="text"
-                    id="nombre"
-                    placeholder="Ingresa tu nombre"
-                    required
-                  />
-                  <br />
+              <br>
+            </section>
+  
+      </main>
+      <footer class="contacto" id="contacto">
         
-                  <label for="apellido">Apellido</label>
-                  <input
-                    type="text"
-                    id="apellido"
-                    placeholder="Ingresa tu apellido"
-                    required
-                  />
-                  <br />
-                  <label for="mail">Mail</label>
-                  <input
-                    type="email"
-                    id="mail"
-                    placeholder="Ingresa tu mail"
-                    required
-                  />
-                  <br />
-                
-                  <br>
-                  <button type="submit">Enviar</button>
-                <button type="reset">Resetear</button>
-                </fieldset>
-        
-                
-              </form>
-          </section>
-
-     </footer>
-</body>
-</html>
+          <h2 class="text-center m-auto" >Más info</h2>
+          <section id="contacto">
+              <form action="" method="">
+                  <h4 class="text-center m-auto" >Si quieres más información, puedes completar tus datos y te contactaremos por mail</h4>
+                  <fieldset class="container rounded-3 border p-4">
+                      <legend class="col-form-label">Datos personales</legend>
+                      <div class="col-md-6">
+                        <label for="nombre">Nombre</label>
+                        <input
+                          type="text"
+                          id="nombre"
+                          placeholder="Ingresa tu nombre"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="apellido">Apellido</label>
+                        <input
+                          type="text"
+                          id="apellido"
+                          placeholder="Ingresa tu apellido"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="mail">Mail</label>
+                        <input
+                          type="email"
+                          id="mail"
+                          placeholder="Ingresa tu mail"
+                          class="form-control"
+                          required
+                        />
+                      </div>
+                      <div class="col-md-12">
+                        <br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="reset" class="btn btn-secondary">Resetear</button>
+                      </div>
+                    </fieldset>
+                    
+              </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikt2oK6hFscdxu1PHqLFyb67a1c2MvpYDgaRKbWpI22U" crossorigin="anonymous"></script>
+  </body>
+  </html>
+  
