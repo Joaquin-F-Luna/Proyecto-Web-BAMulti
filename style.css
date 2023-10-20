@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .container {
+      width: 100vw;
+    }
+  }
+
+ .container > .section {
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+
 body{
     background-color: rgba(117, 255, 237, 0.192);
     color: rgb(12, 0, 78);
