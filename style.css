@@ -28,7 +28,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 186, 243);
+    background-color: #3054a2;
     padding: 2rem;
      position: fixed;
     top: 0;
@@ -63,7 +63,7 @@ color: #ffffff;
 font-family: impact;
 font-size: 15px;
 letter-spacing: 1px;
-text-shadow: -2px -2px 1px #117de2, 2px 2px 1px #117de2, -2px 2px 1px #117de2, 2px -2px 1px #117de2;
+text-shadow: -2px -2px 1px #24366d, 2px 2px 1px #24366d, -2px 2px 1px #24366d, 2px -2px 1px #24366d;
 }
 
 ul li {
@@ -74,7 +74,7 @@ color: #ffffff;
 font-family: impact;
 font-size: 15px;
 letter-spacing: 1px;
-text-shadow: -2px -2px 1px #117de2, 2px 2px 1px #117de2, -2px 2px 1px #117de2, 2px -2px 1px #117de2;
+text-shadow: -2px -2px 1px #24366d, 2px 2px 1px #24366d, -2px 2px 1px #24366d, 2px -2px 1px #24366d;
 }
 
 nav img {
